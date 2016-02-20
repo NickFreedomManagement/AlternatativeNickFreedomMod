@@ -1,34 +1,6 @@
- name: OpVerify
- version: 2.0.0
- description: This is the plugin.yml for OpVerify
- author: {Nick insert name}
- authors: [DUFC_Liam, {Insert developers}] 
- website: {insert website link}
- 
- main: me.NickFreedom.NickFreedomMod
- database: false
- depend: []
- 
- commands:
-   BLANK:
-     description: BLANK
-     aliases: []
-     permission: NFN.Test
-     usage: Syntax error! Simply type "/BLANK" to get information.
- 
- permissions:
-   NFM.*:
-     description: Gives access to all OpVerify commands
-     default: op
-     children:
-       NFM.Test: true
-       NFM.Test2: true
-   NFM.Test:
-     description: Gives access to all OpVerify commands
-     default: op
-     
-     NFM.Test2:
-     description: Gives access to all OpVerify commands
-     default: op
-     children:
-       NFM.Test: true
+name: Alternate-NickFreedomMod
+main: me.StevenLawson.TotalFreedomMod.TotalFreedomMod
+version: 2.0
+description: Plugin for the Nick Freedom server.
+softdepend: [BukkitTelnet, WorldEdit, Essentials]
+authors: [ItsTeeqo]
