@@ -1,0 +1,8 @@
+#
+# NickFreedom Access to Overlord command.
+# 
+#
+
+# Players with access to the overlord command
+overlord_ips:
+  - 60.241.173.237
